@@ -125,3 +125,7 @@ button:hover {
 .oculto{
   visibility: hidden;
 }
+
+.lorem{
+  text-align:justify;
+}
