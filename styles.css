@@ -122,11 +122,6 @@ button:hover {
   box-shadow: var(--shadow);
 }
 
-/*#sobre-mi {
-  margin: 15px 0;
-  margin-bottom: 1.5rem;
-}*/
-
 .oculto{
   visibility: hidden;
 }
