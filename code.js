@@ -61,7 +61,7 @@ function renderizarDatosUsuario() {
   document.querySelector("#edad").innerText = datosPersona.edad;
   document.querySelector("#ciudad").innerText = datosPersona.ciudad;
   document.querySelector("#javascript").innerText = datosPersona.interesPorJs;
-  
+
 }
 
 function recorrerListadoYRenderizarTarjetas() {
@@ -81,13 +81,13 @@ function recorrerListadoYRenderizarTarjetas() {
 
 function alternarColorTema() {
   /* --------------------- PUNTO 4: Escribe tu codigo aqui --------------------- */
- 
   let sitio = document.querySelector("#sitio");
   sitio.classList.toggle("dark");
-
-
 }
 
 /* --------------------- PUNTO 5: Escribe tu codigo aqui --------------------- */
 let press = document.querySelector('#sobre-mi');
 press.onkeypress
+
+/* --------------------- farkbarn ocultando botón -----------------------------*/
+document.getElementById('ocultar-materias').style.display = 'none';
