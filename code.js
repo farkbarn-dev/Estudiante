@@ -83,6 +83,8 @@ function alternarColorTema() {
   /* --------------------- PUNTO 4: Escribe tu codigo aqui --------------------- */
   let sitio = document.querySelector("#sitio");
   sitio.classList.toggle("dark");
+  let sobremi= document.querySelector("#sobremi");
+  sobremi.classList.toggle("dark");
 }
 
 /* --------------------- PUNTO 5: Escribe tu codigo aqui --------------------- */
